@@ -1,0 +1,7 @@
+{
+  "bracketSameLine": false,
+  "arrowParens": "always",
+  "editorconfig": true,
+  "singleAttributePerLine": true,
+  "semi": true
+}
