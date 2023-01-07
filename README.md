@@ -1,3 +1,70 @@
+---
+
+## Cuantía de las ayudas:
+
+El importe máximo de ayuda por beneficiario será de dos mil euros (2.000 €). Los importes máximos de ayuda por **Categoría de Soluciones de Digitalización**, así como la duración que debe mantenerse la prestación del servicio para el Segmento III son los siguientes:
+
+## Sitio Web y Presencia professional en Internet:
+
+Meses de prestación del servicio: 12
+Ayuda para el Segmento II (0 ≤ X\*< 3 empleados): 2.000 €
+
+## eCommerce Electronico:
+
+Meses de prestación del servicio: 12
+Ayuda para el Segmento II (0 ≤ X\*< 3 empleados): 2.000 €
+
+Gestión de Redes Sociales:
+
+Meses de prestación del servicio: 12
+Ayuda para el Segmento II (0 ≤ X\*< 3 empleados): 2.000 €
+
+## Gestión de Clientes:
+
+Meses de prestación del servicio: 12
+Ayuda para el Segmento II (0 ≤ X\*< 3 empleados): 2.000 € (incluye 1 usuario)
+
+## Business Intelligence y Analítica:
+
+Meses de prestación del servicio: 12
+Ayuda para el Segmento II (0 ≤ X\*< 3 empleados): 1.500 € (incluye 1 usuario)
+
+Gestión de Procesos:
+
+Meses de prestación del servicio: 12
+Ayuda para el Segmento II (0 ≤ X\*< 3 empleados): 2.000 € (incluye 1 usuarios)
+
+Factura Electrónica:
+
+Meses de prestación del servicio: 12
+Ayuda para el Segmento II (0 ≤ X\*< 3 empleados): 1.000 € (incluye 1 usuarios)
+
+Servicios y herramientas de Oficina Virtual:
+
+Meses de prestación del servicio: 12
+Ayuda para el Segmento II (0 ≤ X\*< 3 empleados): 250 € por usuario (hasta 2 usuarios)
+
+Comunicaciones Seguras:
+
+Meses de prestación del servicio: 12
+Ayuda para el Segmento II (0 ≤ X\*< 3 empleados): 125 € por usuario (hasta 2 usuarios)
+
+Ciberseguridad:
+
+Meses de prestación del servicio: 12
+Ayuda para el Segmento II (0 ≤ X\*< 3 empleados): 125 € por dispositivo (hasta 2 dispositivos)
+
+Presencia avanzada en Internet:
+
+Meses de prestación del servicio: 12
+Ayuda para el Segmento II (0 ≤ X\*< 3 empleados): 2.000 €
+
+Marketplace:
+
+Meses de prestación del servicio: 12
+Ayuda para el Segmento II (0 ≤ X\*< 3 empleados): 2.000 €
+---
+
 # Proyecto Kit Digital SaasDesk 2023
 
 [![SaasDesk LandingPage](./assets/saasdesk-landingpage.png)](http://dev.pedrogarcia.gq/saasdesk/)
@@ -122,5 +189,10 @@ Alojamiento + Dominio .COM: 30$ and/ Month = 360$ / 1 year
 
 ## REFERENCES:
 
-[Incubadora Proyectos - Clientes](https://acelerapyme.com)
-[Website References](http://dev.pedrogarcia.gq/zoric/index-1.html)
+- [Incubadora Proyectos - Clientes](https://acelerapyme.com)
+
+- [Website References](http://dev.pedrogarcia.gq/zoric/index-1.html)
+
+- [Detalles Convocatorias](https://sede.red.gob.es/es/procedimientos/convocatoria-de-ayudas-destinadas-la-digitalizacion-de-empresas-del-segmento-iii)
+
+---
