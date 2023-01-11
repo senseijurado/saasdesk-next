@@ -1,6 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-}
 
-module.exports = nextConfig
+  distDir: 'dist',
+  optimizeFonts: true,
+  eslint: {
+    dirs: ['pages/**/*'],
+  },
+  swcMinify: false,
+};
+
+module.exports = nextConfig;

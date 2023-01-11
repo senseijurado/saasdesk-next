@@ -6,3 +6,7 @@ dist/
 */.env
 .vscode/
 .DS_Store
+.next/
+.swcrc
+yarn.lock
+

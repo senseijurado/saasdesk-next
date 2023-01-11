@@ -1,7 +1,10 @@
 {
   "bracketSameLine": false,
-  "arrowParens": "always",
+  "arrowParens": "avoid",
   "editorconfig": true,
   "singleAttributePerLine": true,
-  "semi": true
+  "semi": true,
+  "singleQuote": true,
+  "bracketSpacing": true,
+  "htmlWhitespaceSensitivity": "strict"
 }
