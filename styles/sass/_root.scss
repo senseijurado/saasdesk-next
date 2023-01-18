@@ -1,0 +1,125 @@
+/* BASE ROOT STYLES:  */
+:root {
+  /* LAYOUT: Container Width Sizes:  */
+  --max-w: 1440px;
+  --full-w: 100%;
+  --screen-w: 100vw;
+
+  /* TYPOGRAPHY: Font Families: */
+  --font-mono: 'Cascadia Mono', 'Segoe UI Mono', 'Source Code Pro', monospace;
+  --font-display: Inter, Arial, Helvetica, sans-serif;
+  --font-serif: 'Source Serif Pro', serif;
+
+  /* TYPOGRAPHY: Font Sizes:  */
+  --fz-body: 62.5%;
+  --fz-sm: clamp(62.5%, 1vw + 1.5rem, 1.2rem);
+  --fz-md: clamp(62.5%, 1vw + 1.5rem, 1.44rem);
+  --fz-lg: clamp(1.4rem, 0.75vw + 1.4rem, 1.6rem);
+  --fz-xl: clamp(2.44rem, 3vw + 1.75rem, 3.2rem);
+  --fz-2xl: clamp(3.33rem, 4vw + 2.4rem, 4.8rem);
+  --fz-3xl: clamp(4.44rem, 4.5vw + 3.2rem, 5.5rem);
+  --fz-4xl: clamp(5.55rem, 5vw + 4.8rem, 6.4rem);
+
+  /* COLORS BRAND: LIGHT THEME */
+  --sdd-purple: #644cfc;
+  --sdd-orange: #fca249;
+  --sdd-pink: #ff9398;
+  --sdd-black: #121212;
+  --sdd-gray-400: #242424;
+  --sdd-gray-300: #4b4f58;
+  --sdd-gray-200: #9ca0ab;
+  --sdd-gray-100: #d3d5d9;
+  --sdd-white: #f7f7f7;
+}
+
+/* ROOT SELECTOR: DARK THEME VARS: */
+@media (prefers-color-scheme: dark) {
+  :root {
+    /* COLORS BRAND: DARK THEME */
+    --sdd-purple: lighten(var(--sdd-purple), 10%);
+    --sdd-orange: #fca249;
+    --sdd-pink: #ff9398;
+    --sdd-black: #242424;
+    --sdd-gray-300: #4b4f58;
+    --sdd-gray-200: #9ca0ab;
+    --sdd-gray-100: #d3d5d9;
+    --sdd-white: #f7f7f7;
+  }
+}
+
+/* ROOT HTML AND BODY */
+html,
+body {
+  -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: var(--full-w);
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: var(--full-w);
+  box-sizing: border-box;
+  color-scheme: light;
+  font-family: var(--font-display);
+  font-size: var(--fz-body);
+  font-weight: 400;
+  line-height: 2.4rem;
+  margin: 0;
+  max-width: var(--screen-w);
+  overflow-x: hidden;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  text-size-adjust: var(--full-w);
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    color-scheme: dark;
+  }
+}
+
+/* UNIVERSAL SELECTORS:  */
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 4rem;
+  font-size: var(--fz-md);
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+/* IMAGES, FIGURE, MEDIA ELEMENTS:  */
+img {
+  max-width: var(--full-w);
+  object-fit: cover;
+  height: auto;
+  font-size: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-size: var(--fz-2xl);
+  font-weight: bold;
+}
+
+h2 {
+  font-size: var(--fz-lg);
+}
+
+p {
+  font-size: var(--fz-lg);
+  line-height: 1.5;
+}
+
+/* RESET LINKS ANCHOR:  */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--sdd-gray-100);
+}
