@@ -3,6 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "globals": "sass styles/sass/global.scss styles/globals.css --no-source-map -w",
+    "utils": "sass styles/sass/_utilities.scss styles/utilities.css --no-source-map -w",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
@@ -24,7 +26,9 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
+    "node-sass": "^8.0.0",
     "postcss": "^8.4.21",
+    "sass": "^1.57.1",
     "tailwindcss": "^3.2.4"
   }
 }
