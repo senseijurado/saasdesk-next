@@ -6,9 +6,9 @@
   --screen-w: 100vw;
 
   /* TYPOGRAPHY: Font Families: */
-  --font-code: 'Inconsolata', 'Courier New', monospace;
   --font-display: 'Inter', 'Helvetica', 'Arial', sans-serif;
   --font-serif: 'Source Serif Pro', serif;
+  --font-code: 'Inconsolata', 'Courier New', monospace;
 
   /* TYPOGRAPHY: Font Sizes:  */
   --fz-body: 62.5%;
@@ -48,8 +48,7 @@
 }
 
 /* ROOT HTML AND BODY */
-html,
-body {
+html {
   -moz-osx-font-smoothing: grayscale;
   -ms-text-size-adjust: var(--full-w);
   -webkit-font-smoothing: antialiased;
@@ -83,6 +82,8 @@ body {
 }
 
 body {
+  @extend html;
+  font-family: var(--font-display);
   padding: 4rem;
   font-size: var(--fz-md);
   min-height: 100vh;

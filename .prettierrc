@@ -2,7 +2,7 @@
   "bracketSameLine": false,
   "arrowParens": "avoid",
   "editorconfig": true,
-  "singleAttributePerLine": false,
+  "singleAttributePerLine": true,
   "semi": true,
   "singleQuote": true,
   "bracketSpacing": true,
