@@ -6,8 +6,8 @@
   --screen-w: 100vw;
 
   /* TYPOGRAPHY: Font Families: */
-  --font-mono: 'Cascadia Mono', 'Segoe UI Mono', 'Source Code Pro', monospace;
-  --font-display: Inter, Arial, Helvetica, sans-serif;
+  --font-code: 'Inconsolata', 'Courier New', monospace;
+  --font-display: 'Inter', 'Helvetica', 'Arial', sans-serif;
   --font-serif: 'Source Serif Pro', serif;
 
   /* TYPOGRAPHY: Font Sizes:  */
@@ -57,6 +57,7 @@ body {
   box-sizing: border-box;
   color-scheme: light;
   font-family: var(--font-display);
+  font-variant-ligatures: normal;
   font-size: var(--fz-body);
   font-weight: 400;
   line-height: 2.4rem;
@@ -94,6 +95,7 @@ img {
   max-width: var(--full-w);
   object-fit: cover;
   height: auto;
+  // width: auto;
   font-size: 0;
 }
 

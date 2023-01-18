@@ -301,13 +301,13 @@ $theme-brand-colors: (
 
   .hover-l\:bg-#{$color} {
     &:hover {
-      background-color: lighten($value, 10%);
+      background-color: lighten($value, 24%);
     }
   }
 
   .hover-d\:bg-#{$color} {
     &:hover {
-      background-color: darken($value, 10%);
+      background-color: darken($value, 16%);
     }
   }
 
@@ -323,7 +323,7 @@ $theme-brand-colors: (
 
   .hover-l\:text-#{$color} {
     &:hover {
-      color: lighten($value, 16%);
+      color: lighten($value, 24%);
     }
   }
 
@@ -331,5 +331,21 @@ $theme-brand-colors: (
     &:hover {
       color: darken($value, 16%);
     }
+  }
+}
+
+// TYPOGRAPHY:
+.font-display {
+  font-family: 'Inter', 'Helvetica', 'Arial', sans-serif;
+}
+
+.font-code {
+  font-family: 'Inconsolata', 'Courier New', monospace;
+}
+
+// Font-weight Classes:
+@for $fw from 4 through 9 {
+  .fw-#{$fw * 100} {
+    font-weight: $fw * 100;
   }
 }

@@ -1,10 +1,8 @@
 {
   "name": "saasdesk-landing",
-  "version": "0.1.0",
+  "version": "1.18.1",
   "private": true,
   "scripts": {
-    "globals": "sass styles/sass/global.scss styles/globals.css --no-source-map -w",
-    "utils": "sass styles/sass/_utilities.scss styles/utilities.css --no-source-map -w",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
