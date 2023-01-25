@@ -9,7 +9,7 @@
   },
   "scripts": {
     "dev": "next dev --port=4200",
-    "build": "rm -rf dist/ && tsc && yarn semantic && next build",
+    "build": "rm -rf dist/ && next build",
     "start": "next start",
     "semantic": "npx semantic-release"
   },
