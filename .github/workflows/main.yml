@@ -6,9 +6,9 @@ name: Semantic Release
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -26,14 +26,7 @@ jobs:
         with:
           node-version: 14.17
 
-      - name: Install Needed Deps
-        run: yarn install
-
-      - name: Building and Deploy App
-        run: yarn build
-
       - name: Launch Semantic Release
         env:
           GITHUB_TOKEN: ${{ secrets.KD_GA_TOKEN }}
         run: npx semantic-release
-

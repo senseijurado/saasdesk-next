@@ -1,7 +1,7 @@
 import Head from 'next/head';
-import Image from 'next/image';
-import CardLink from '../components/CardLink';
-import { CARDS } from '../data/CardLinks';
+
+
+
 
 export default function Home() {
   return (
@@ -22,59 +22,7 @@ export default function Home() {
         />
       </Head>
       <main className="main flex items-center justify-between">
-        <div className="description">
-          <p>
-            Get started by editing&nbsp;
-            <code className="font-code fw-700 text-white">pages/index.tsx</code>
-          </p>
-          <div>
-            <a
-              className=""
-              href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <Image
-                src="/vercel.svg"
-                alt="Vercel Logotype Brand"
-                className="vercelLogo"
-                width={124}
-                height={24}
-                priority
-              />
-            </a>
-          </div>
-        </div>
-
-        <div className="center">
-          <Image
-            className="logo"
-            src="/next.svg"
-            alt="Next.js Logo"
-            width={180}
-            height={37}
-            priority
-          />
-          <div className="thirteen">
-            <Image
-              src="/thirteen.svg"
-              alt="13"
-              width={40}
-              height={31}
-              priority
-            />
-          </div>
-        </div>
-
-        <section className="grid font-display">
-          {CARDS.map(({ title, description, pathname }) => (
-            <CardLink
-              title={title}
-              description={description}
-              pathname={pathname}
-            />
-          ))}
-        </section>
+        <h1>App Home Running</h1>
       </main>
     </>
   );
