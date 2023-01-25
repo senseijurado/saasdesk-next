@@ -3,8 +3,7 @@ import type { NextApiRequest, NextApiResponse } from 'next';
 import { DATE_FORMATTED } from '../../helpers';
 
 // Local Interfaces
-export interface Props
-{
+export interface Props {
   message: string;
 }
 

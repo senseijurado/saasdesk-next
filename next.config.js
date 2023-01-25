@@ -3,9 +3,9 @@
 const nextConfig = {
   reactStrictMode: true,
   distDir: 'dist',
-  env: {
-    NODE_ENV: 'production',
-    STRIPE_API_PK: '0.0.0',
+  optimizeFonts: true,
+  eslint: {
+    ignoreDuringBuilds: true
   }
 
 };

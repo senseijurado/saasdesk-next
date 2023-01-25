@@ -9,10 +9,9 @@
     "url": "https://github.com/senseijurado/05-saasdesk-next.git"
   },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
+    "dev": "next dev --port=4200",
+    "build": "rm -rf .next/ && rm -rf dist/ && next build",
+    "start": "next start"
   },
   "dependencies": {
     "@types/node": "18.11.18",
