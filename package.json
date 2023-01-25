@@ -2,7 +2,6 @@
   "name": "saasdesk-landing",
   "version": "0.0.0",
   "private": true,
-  "main": "dist/index.js",
   "homepage": "https://github.com/senseijurado/05-saasdesk-next",
   "repository": {
     "type": "git",
